@@ -5,7 +5,7 @@ int main(){
 	FILE *fp;
 	int count;
 	char type[2],name[10],ch;
-	printf("Please input£º\n");
+	printf("Please input two para£º\n");
 	scanf("%s %s",&type,&name);
     if(strcmp(type,"-c")==0)
 	{
